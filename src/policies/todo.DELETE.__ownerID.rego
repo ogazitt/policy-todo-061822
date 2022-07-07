@@ -5,8 +5,6 @@ import input.resource
 import future.keywords.in
 
 default allowed = false
-default visible = false
-default enabled = false
 
 allowed {
   user.attributes.roles[_] == "editor"
